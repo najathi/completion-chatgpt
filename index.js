@@ -8,7 +8,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 const response = await openai.createCompletion({
     model: "text-davinci-003",
-    prompt: "Say this is a test",
+    prompt: "I want to fly from Orlando to Boston",
     max_tokens: 7,
     temperature: 0,
 });
