@@ -1,1 +1,4 @@
-"# completion-chatgpt" 
+# completion-chatgpt
+
+### npm install
+### npm run dev
